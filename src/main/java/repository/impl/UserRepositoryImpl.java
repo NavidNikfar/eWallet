@@ -1,11 +1,11 @@
 package repository.impl;
 
-import repository.UserRepo;
+import repository.UserRepository;
 
 import java.sql.Connection;
 
 
-public class UserRepImpl implements UserRepo {
+public class UserRepositoryImpl implements UserRepository {
 
     Connection connection;
 

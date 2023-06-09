@@ -2,6 +2,6 @@ package repository;
 
 import entity.User;
 
-public interface UserRepo {
+public interface UserRepository {
     void save(User user);
 }
