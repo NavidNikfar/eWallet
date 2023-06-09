@@ -8,7 +8,7 @@ public class DBconnection {
 
     static final String URL = "jdbc:postgresql://localhost:5432/ewallet";
     static final String USER_NAME = "postgres";
-    static final String PASSWORD = "myjava123";
+    static final String PASSWORD = "1234";
 
     private static Connection connection = null;
 
