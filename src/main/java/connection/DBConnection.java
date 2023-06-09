@@ -12,10 +12,9 @@ public class DBConnection {
 
     private static Connection connection = null;
 
-    private DBConnection() {
-    }
 
-    public static Connection getConnection() {
+
+    public Connection getConnection() {
         if (connection == null) {
             try {
                 connection = DriverManager.getConnection(URL, USER_NAME, PASSWORD);
