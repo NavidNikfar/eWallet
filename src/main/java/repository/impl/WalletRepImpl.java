@@ -1,4 +1,6 @@
 package repository.impl;
 
-public class WalletRepImpl {
+import repository.WalletRepo;
+
+public class WalletRepImpl implements WalletRepo {
 }

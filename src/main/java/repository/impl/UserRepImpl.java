@@ -1,4 +1,6 @@
 package repository.impl;
 
-public class UserRepImpl {
+import repository.UserRepo;
+
+public class UserRepImpl implements UserRepo {
 }

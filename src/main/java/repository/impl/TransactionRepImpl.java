@@ -1,5 +1,7 @@
 package repository.impl;
 
-public class TransactionRepImpl {
+import repository.TransactionRepo;
+
+public class TransactionRepImpl implements TransactionRepo {
 
 }
